@@ -1,0 +1,587 @@
+CRITICAL - 2024-08-06 07:18:48 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(635): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(863): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Home.php(819): CodeIgniter\Model->__call('joinnowhere', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->tbarangm()
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\pemesanan\\public\\index.php')
+CRITICAL - 2024-08-06 07:21:37 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(635): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(863): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Home.php(819): CodeIgniter\Model->__call('joinnowhere', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->tbarangm()
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\pemesanan\\public\\index.php')
+CRITICAL - 2024-08-06 07:26:27 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(635): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(863): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Home.php(986): CodeIgniter\Model->__call('upload1', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->aksi_eprofile()
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\pemesanan\\public\\index.php')
+CRITICAL - 2024-08-06 07:31:01 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(635): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(863): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Home.php(1907): CodeIgniter\Model->__call('tampilgroupby', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->etransaksi('14')
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\pemesanan\\public\\index.php')
+CRITICAL - 2024-08-06 07:32:30 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(635): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(863): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Home.php(819): CodeIgniter\Model->__call('joinnowhere', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->tbarangm()
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\pemesanan\\public\\index.php')
+CRITICAL - 2024-08-06 07:41:54 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(635): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(863): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Home.php(819): CodeIgniter\Model->__call('joinnowhere', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->tbarangm()
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\pemesanan\\public\\index.php')
+CRITICAL - 2024-08-06 07:44:45 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(635): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(863): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Home.php(819): CodeIgniter\Model->__call('joinnowhere', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->tbarangm()
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\pemesanan\\public\\index.php')
+CRITICAL - 2024-08-06 07:45:19 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(635): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(863): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Home.php(819): CodeIgniter\Model->__call('joinnowhere', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->tbarangm()
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\pemesanan\\public\\index.php')
+CRITICAL - 2024-08-06 07:46:39 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(635): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(863): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Home.php(819): CodeIgniter\Model->__call('joinnowhere', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->tbarangm()
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\pemesanan\\public\\index.php')
+CRITICAL - 2024-08-06 07:48:00 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(635): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(863): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Home.php(819): CodeIgniter\Model->__call('joinnowhere', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->tbarangm()
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\pemesanan\\public\\index.php')
+CRITICAL - 2024-08-06 07:48:03 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(635): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(863): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Home.php(819): CodeIgniter\Model->__call('joinnowhere', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->tbarangm()
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\pemesanan\\public\\index.php')
+CRITICAL - 2024-08-06 07:49:45 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(635): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(863): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Home.php(819): CodeIgniter\Model->__call('joinnowhere', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->tbarangm()
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\pemesanan\\public\\index.php')
+CRITICAL - 2024-08-06 07:52:19 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(635): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(863): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Home.php(1907): CodeIgniter\Model->__call('tampilgroupby', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->etransaksi('14')
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\pemesanan\\public\\index.php')
+CRITICAL - 2024-08-06 08:09:34 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(635): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(863): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Home.php(819): CodeIgniter\Model->__call('joinnowhere', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->tbarangm()
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\pemesanan\\public\\index.php')
+CRITICAL - 2024-08-06 10:56:34 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(635): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(863): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Home.php(837): CodeIgniter\Model->__call('joinnowhere', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->tbarangk()
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\pemesanan\\public\\index.php')
+CRITICAL - 2024-08-06 10:59:35 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(635): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(863): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Home.php(837): CodeIgniter\Model->__call('joinnowhere', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->tbarangk()
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\pemesanan\\public\\index.php')
+CRITICAL - 2024-08-06 11:14:43 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(635): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(863): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Home.php(837): CodeIgniter\Model->__call('joinnowhere', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->tbarangk()
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\pemesanan\\public\\index.php')
+CRITICAL - 2024-08-06 11:14:48 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(635): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(863): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Home.php(819): CodeIgniter\Model->__call('joinnowhere', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->tbarangm()
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\pemesanan\\public\\index.php')
+CRITICAL - 2024-08-06 11:14:54 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(635): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(863): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Home.php(837): CodeIgniter\Model->__call('joinnowhere', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->tbarangk()
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\pemesanan\\public\\index.php')
+CRITICAL - 2024-08-06 11:15:49 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(635): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(863): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Home.php(819): CodeIgniter\Model->__call('joinnowhere', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->tbarangm()
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\pemesanan\\public\\index.php')
+CRITICAL - 2024-08-06 11:16:08 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(635): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(863): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Home.php(819): CodeIgniter\Model->__call('joinnowhere', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->tbarangm()
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\pemesanan\\public\\index.php')
+CRITICAL - 2024-08-06 11:17:11 --> Invalid file: "tbarangm.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('tbarangm.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('tbarangm', [], true)
+ 3 APPPATH\Controllers\Home.php(824): view('tbarangm', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->tbarangm()
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\pemesanan\\public\\index.php')
+CRITICAL - 2024-08-06 11:17:18 --> Invalid file: "tbarangm.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('tbarangm.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('tbarangm', [], true)
+ 3 APPPATH\Controllers\Home.php(824): view('tbarangm', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->tbarangm()
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\pemesanan\\public\\index.php')
+CRITICAL - 2024-08-06 11:27:46 --> number_format(): Argument #1 ($num) must be of type float, string given
+in APPPATH\Views\laporantransaksi.php on line 54.
+ 1 APPPATH\Views\laporantransaksi.php(54): number_format('', 2, ',', '.')
+ 2 SYSTEMPATH\View\View.php(226): include('E:\\pemesanan\\app\\Views\\laporantransaksi.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('laporantransaksi', [], true)
+ 5 APPPATH\Controllers\Home.php(1270): view('laporantransaksi', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->laporantransaksi()
+ 7 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\pemesanan\\public\\index.php')
+CRITICAL - 2024-08-06 11:27:54 --> number_format(): Argument #1 ($num) must be of type float, string given
+in APPPATH\Views\laporantransaksi.php on line 54.
+ 1 APPPATH\Views\laporantransaksi.php(54): number_format('', 2, ',', '.')
+ 2 SYSTEMPATH\View\View.php(226): include('E:\\pemesanan\\app\\Views\\laporantransaksi.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('laporantransaksi', [], true)
+ 5 APPPATH\Controllers\Home.php(1270): view('laporantransaksi', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->laporantransaksi()
+ 7 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\pemesanan\\public\\index.php')
+CRITICAL - 2024-08-06 11:50:41 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(635): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(863): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Home.php(974): CodeIgniter\Model->__call('resetpassword', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->resetpassword('10')
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\pemesanan\\public\\index.php')
+CRITICAL - 2024-08-06 12:17:13 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(635): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(863): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Home.php(1927): CodeIgniter\Model->__call('tampilgroupby', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->etransaksi('20')
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\pemesanan\\public\\index.php')
+CRITICAL - 2024-08-06 12:32:13 --> number_format(): Argument #1 ($num) must be of type float, string given
+in APPPATH\Views\laporantransaksi.php on line 54.
+ 1 APPPATH\Views\laporantransaksi.php(54): number_format('', 2, ',', '.')
+ 2 SYSTEMPATH\View\View.php(226): include('E:\\pemesanan\\app\\Views\\laporantransaksi.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('laporantransaksi', [], true)
+ 5 APPPATH\Controllers\Home.php(1271): view('laporantransaksi', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->laporantransaksi()
+ 7 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\pemesanan\\public\\index.php')
+CRITICAL - 2024-08-06 12:32:39 --> number_format(): Argument #1 ($num) must be of type float, string given
+in APPPATH\Views\laporantransaksi.php on line 54.
+ 1 APPPATH\Views\laporantransaksi.php(54): number_format('', 2, ',', '.')
+ 2 SYSTEMPATH\View\View.php(226): include('E:\\pemesanan\\app\\Views\\laporantransaksi.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('laporantransaksi', [], true)
+ 5 APPPATH\Controllers\Home.php(1271): view('laporantransaksi', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->laporantransaksi()
+ 7 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\pemesanan\\public\\index.php')
+CRITICAL - 2024-08-06 12:33:19 --> number_format(): Argument #1 ($num) must be of type float, string given
+in APPPATH\Views\laporantransaksi.php on line 54.
+ 1 APPPATH\Views\laporantransaksi.php(54): number_format('', 2, ',', '.')
+ 2 SYSTEMPATH\View\View.php(226): include('E:\\pemesanan\\app\\Views\\laporantransaksi.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('laporantransaksi', [], true)
+ 5 APPPATH\Controllers\Home.php(1271): view('laporantransaksi', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->laporantransaksi()
+ 7 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\pemesanan\\public\\index.php')
+CRITICAL - 2024-08-06 12:35:14 --> Invalid file: "tbarangm.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('tbarangm.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('tbarangm', [], true)
+ 3 APPPATH\Controllers\Home.php(825): view('tbarangm', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->tbarangm()
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\pemesanan\\public\\index.php')
+CRITICAL - 2024-08-06 12:36:31 --> number_format(): Argument #1 ($num) must be of type float, string given
+in APPPATH\Views\transaksiwindows.php on line 92.
+ 1 APPPATH\Views\transaksiwindows.php(92): number_format('', 2, ',', '.')
+ 2 SYSTEMPATH\View\View.php(226): include('E:\\pemesanan\\app\\Views\\transaksiwindows.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('transaksiwindows', [], true)
+ 5 APPPATH\Controllers\Home.php(1445): view('transaksiwindows', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->transaksi_windows()
+ 7 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\pemesanan\\public\\index.php')
+CRITICAL - 2024-08-06 12:39:03 --> number_format(): Argument #1 ($num) must be of type float, string given
+in APPPATH\Views\transaksiexcel.php on line 43.
+ 1 APPPATH\Views\transaksiexcel.php(43): number_format('', 2, ',', '.')
+ 2 SYSTEMPATH\View\View.php(226): include('E:\\pemesanan\\app\\Views\\transaksiexcel.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('transaksiexcel', [], true)
+ 5 APPPATH\Controllers\Home.php(1403): view('transaksiexcel', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->transaksi_excel()
+ 7 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\pemesanan\\public\\index.php')
+CRITICAL - 2024-08-06 12:42:54 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(635): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(863): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Home.php(974): CodeIgniter\Model->__call('resetpassword', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->resetpassword('6')
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\pemesanan\\public\\index.php')
+CRITICAL - 2024-08-06 12:44:43 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(635): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(863): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Home.php(1927): CodeIgniter\Model->__call('tampilgroupby', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->etransaksi('20')
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\pemesanan\\public\\index.php')
+CRITICAL - 2024-08-06 12:47:49 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(635): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(863): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Home.php(1927): CodeIgniter\Model->__call('tampilgroupby', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->etransaksi('20')
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\pemesanan\\public\\index.php')
+CRITICAL - 2024-08-06 12:48:22 --> Invalid file: "etransaksi.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('etransaksi.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('etransaksi', [], true)
+ 3 APPPATH\Controllers\Home.php(1934): view('etransaksi', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->etransaksi('20')
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\pemesanan\\public\\index.php')
+CRITICAL - 2024-08-06 12:54:02 --> Invalid file: "tbarangm.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('tbarangm.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('tbarangm', [], true)
+ 3 APPPATH\Controllers\Home.php(825): view('tbarangm', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->tbarangm()
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\pemesanan\\public\\index.php')
+CRITICAL - 2024-08-06 05:58:11 --> Cannot redeclare App\Controllers\Home::aksi_login()
+in APPPATH\Controllers\Home.php on line 88.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+ERROR - 2024-08-06 12:59:19 --> mysqli_sql_exception: Unknown column 'status' in 'where clause' in E:\pemesanan\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 E:\pemesanan\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 E:\pemesanan\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 E:\pemesanan\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 E:\pemesanan\system\Database\BaseBuilder.php(1749): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\pemesanan\app\Models\M_pesan.php(41): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#5 E:\pemesanan\app\Controllers\Home.php(68): App\Models\M_pesan->getWhere('user', Array)
+#6 E:\pemesanan\system\CodeIgniter.php(915): App\Controllers\Home->aksi_login()
+#7 E:\pemesanan\system\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 E:\pemesanan\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\pemesanan\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 E:\pemesanan\system\Commands\Server\rewrite.php(47): require_once('E:\\pemesanan\\pu...')
+#11 {main}
+CRITICAL - 2024-08-06 12:59:19 --> Unknown column 'status' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1749): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user`
+WHERE `username` = :username:
+AND `password` = :password:
+AND `status` = :status:', [...], false)
+ 2 APPPATH\Models\M_pesan.php(41): CodeIgniter\Database\BaseBuilder->getWhere([...])
+ 3 APPPATH\Controllers\Home.php(68): App\Models\M_pesan->getWhere('user', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->aksi_login()
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\pemesanan\\public\\index.php')
+CRITICAL - 2024-08-06 13:13:22 --> Class "App\Controllers\M_pb" not found
+in APPPATH\Controllers\Home.php on line 898.
+ 1 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->aksi_tbarangk()
+ 2 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\pemesanan\\public\\index.php')
+CRITICAL - 2024-08-06 13:15:57 --> Invalid file: "ebarangk.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('ebarangk.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('ebarangk', [], true)
+ 3 APPPATH\Controllers\Home.php(273): view('ebarangk', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->ebarangk('62')
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\pemesanan\\public\\index.php')
+CRITICAL - 2024-08-06 13:19:36 --> Invalid file: "tkeranjang.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('tkeranjang.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('tkeranjang', [], true)
+ 3 APPPATH\Controllers\Home.php(405): view('tkeranjang', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->tkeranjang()
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\pemesanan\\public\\index.php')
+CRITICAL - 2024-08-06 13:32:22 --> Undefined variable $setting
+in APPPATH\Views\header.php on line 9.
+ 1 APPPATH\Views\header.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $setting', 'E:\\pemesanan\\app\\Views\\header.php', 9)
+ 2 SYSTEMPATH\View\View.php(226): include('E:\\pemesanan\\app\\Views\\header.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('header', [], true)
+ 5 APPPATH\Controllers\Home.php(95): view('header')
+ 6 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->signup()
+ 7 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\pemesanan\\public\\index.php')
+CRITICAL - 2024-08-06 13:33:26 --> Undefined variable $model
+in APPPATH\Controllers\Home.php on line 96.
+ 1 APPPATH\Controllers\Home.php(96): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $model', 'E:\\pemesanan\\app\\Controllers\\Home.php', 96)
+ 2 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->signup()
+ 3 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\pemesanan\\public\\index.php')
+CRITICAL - 2024-08-06 13:33:53 --> Invalid file: "signup.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('signup.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('signup', [], true)
+ 3 APPPATH\Controllers\Home.php(99): view('signup', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->signup()
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\pemesanan\\public\\index.php')
+ERROR - 2024-08-06 13:34:39 --> mysqli_sql_exception: Table 'pemesanan.token' doesn't exist in E:\pemesanan\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 E:\pemesanan\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `to...', 0)
+#1 E:\pemesanan\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `to...')
+#2 E:\pemesanan\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `to...')
+#3 E:\pemesanan\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `to...', Array, false)
+#4 E:\pemesanan\app\Models\M_pesan.php(26): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 E:\pemesanan\app\Models\M_pesan.php(79): App\Models\M_pesan->tambah('token', Array)
+#6 E:\pemesanan\app\Controllers\Home.php(123): App\Models\M_pesan->simpantoken('ahahaha@gmail.c...', 'W72S64')
+#7 E:\pemesanan\system\CodeIgniter.php(915): App\Controllers\Home->aksi_signup()
+#8 E:\pemesanan\system\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 E:\pemesanan\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\pemesanan\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 E:\pemesanan\system\Commands\Server\rewrite.php(47): require_once('E:\\pemesanan\\pu...')
+#12 {main}
+CRITICAL - 2024-08-06 13:34:39 --> Table 'pemesanan.token' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `token` (`email`, `token`, `create_at`) VALUES (:email:, :token:, :create_at:)', [...], false)
+ 2 APPPATH\Models\M_pesan.php(26): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Models\M_pesan.php(79): App\Models\M_pesan->tambah('token', [...])
+ 4 APPPATH\Controllers\Home.php(123): App\Models\M_pesan->simpantoken('ahahaha@gmail.com', 'W72S64')
+ 5 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->aksi_signup()
+ 6 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\pemesanan\\public\\index.php')
+CRITICAL - 2024-08-06 06:36:10 --> syntax error, unexpected token "return", expecting "function" or "const"
+in APPPATH\Controllers\Home.php on line 127.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(250): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\pemesanan\\vendor\\composer/../../app/Controllers/Home.php')
+ 2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClassmap('App\\Controllers\\Home')
+ 3 SYSTEMPATH\CodeIgniter.php(873): class_exists('\\App\\Controllers\\Home', true)
+ 4 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\CodeIgniter->startController()
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\pemesanan\\public\\index.php')
+ERROR - 2024-08-06 13:36:39 --> mysqli_sql_exception: Unknown column 'status' in 'field list' in E:\pemesanan\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 E:\pemesanan\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `us...', 0)
+#1 E:\pemesanan\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 E:\pemesanan\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 E:\pemesanan\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 E:\pemesanan\app\Models\M_pesan.php(26): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 E:\pemesanan\app\Controllers\Home.php(119): App\Models\M_pesan->tambah('user', Array)
+#6 E:\pemesanan\system\CodeIgniter.php(915): App\Controllers\Home->aksi_signup()
+#7 E:\pemesanan\system\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 E:\pemesanan\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\pemesanan\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 E:\pemesanan\system\Commands\Server\rewrite.php(47): require_once('E:\\pemesanan\\pu...')
+#11 {main}
+CRITICAL - 2024-08-06 13:36:39 --> Unknown column 'status' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `user` (`username`, `password`, `email`, `level`, `status`, `delete`, `foto`) VALUES (:username:, :password:, :email:, :level:, :status:, :delete:, :foto:)', [...], false)
+ 2 APPPATH\Models\M_pesan.php(26): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Home.php(119): App\Models\M_pesan->tambah('user', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->aksi_signup()
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\pemesanan\\public\\index.php')
+CRITICAL - 2024-08-06 13:40:07 --> Too few arguments to function App\Controllers\Home::printnota(), 0 passed in E:\pemesanan\system\CodeIgniter.php on line 915 and exactly 1 expected
+in APPPATH\Controllers\Home.php on line 1148.
+ 1 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->printnota()
+ 2 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\pemesanan\\public\\index.php')
+CRITICAL - 2024-08-06 13:41:00 --> Too few arguments to function App\Controllers\Home::printnota(), 0 passed in E:\pemesanan\system\CodeIgniter.php on line 915 and exactly 1 expected
+in APPPATH\Controllers\Home.php on line 1148.
+ 1 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->printnota()
+ 2 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\pemesanan\\public\\index.php')
+CRITICAL - 2024-08-06 20:17:19 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Home.php on line 60.
+ 1 APPPATH\Controllers\Home.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'E:\\pemesanan\\app\\Controllers\\Home.php', 60)
+ 2 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->aksi_login()
+ 3 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\pemesanan\\public\\index.php')
+CRITICAL - 2024-08-06 20:17:34 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Home.php on line 60.
+ 1 APPPATH\Controllers\Home.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'E:\\pemesanan\\app\\Controllers\\Home.php', 60)
+ 2 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->aksi_login()
+ 3 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\pemesanan\\public\\index.php')
+CRITICAL - 2024-08-06 20:40:56 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Home.php on line 60.
+ 1 APPPATH\Controllers\Home.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'E:\\pemesanan\\app\\Controllers\\Home.php', 60)
+ 2 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->aksi_login()
+ 3 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\pemesanan\\public\\index.php')
+CRITICAL - 2024-08-06 20:47:40 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Home.php on line 60.
+ 1 APPPATH\Controllers\Home.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'E:\\pemesanan\\app\\Controllers\\Home.php', 60)
+ 2 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->aksi_login()
+ 3 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\pemesanan\\public\\index.php')

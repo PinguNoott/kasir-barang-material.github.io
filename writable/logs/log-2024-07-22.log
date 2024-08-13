@@ -1,0 +1,345 @@
+CRITICAL - 2024-07-22 04:17:18 --> Unclosed '{' on line 6
+in APPPATH\Controllers\Home.php on line 23.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\pemesanan\\app\\Controllers\\Home.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 4 SYSTEMPATH\CodeIgniter.php(873): class_exists('\\App\\Controllers\\Home', true)
+ 5 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\pemesanan\\public\\index.php')
+CRITICAL - 2024-07-22 04:31:21 --> Undefined variable $dua
+in APPPATH\Views\menu.php on line 189.
+ 1 APPPATH\Views\menu.php(189): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dua', 'E:\\pemesanan\\app\\Views\\menu.php', 189)
+ 2 SYSTEMPATH\View\View.php(226): include('E:\\pemesanan\\app\\Views\\menu.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('menu', [], true)
+ 5 APPPATH\Controllers\Home.php(17): view('menu')
+ 6 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\pemesanan\\public\\index.php')
+CRITICAL - 2024-07-22 04:44:18 --> Unclosed '{' on line 6
+in APPPATH\Controllers\Home.php on line 31.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\pemesanan\\app\\Controllers\\Home.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 4 SYSTEMPATH\CodeIgniter.php(873): class_exists('\\App\\Controllers\\Home', true)
+ 5 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\pemesanan\\public\\index.php')
+CRITICAL - 2024-07-22 04:49:39 --> App\Controllers\Home::index(): Return value must be of type string, none returned
+in APPPATH\Controllers\Home.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->index()
+ 2 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\pemesanan\\public\\index.php')
+CRITICAL - 2024-07-22 04:50:00 --> syntax error, unexpected token "{"
+in APPPATH\Controllers\Home.php on line 8.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\pemesanan\\app\\Controllers\\Home.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 4 SYSTEMPATH\CodeIgniter.php(873): class_exists('\\App\\Controllers\\Home', true)
+ 5 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\pemesanan\\public\\index.php')
+CRITICAL - 2024-07-22 04:52:53 --> Class "App\Controllers\M_pesan" not found
+in APPPATH\Controllers\Home.php on line 31.
+ 1 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->aksi_login()
+ 2 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\pemesanan\\public\\index.php')
+CRITICAL - 2024-07-22 04:53:57 --> Class "App\Controllers\M_pesan" not found
+in APPPATH\Controllers\Home.php on line 31.
+ 1 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->aksi_login()
+ 2 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\pemesanan\\public\\index.php')
+ERROR - 2024-07-22 04:54:39 --> mysqli_sql_exception: Unknown column 'status' in 'where clause' in E:\pemesanan\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 E:\pemesanan\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 E:\pemesanan\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 E:\pemesanan\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 E:\pemesanan\system\Database\BaseBuilder.php(1749): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\pemesanan\app\Models\M_pesan.php(14): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#5 E:\pemesanan\app\Controllers\Home.php(32): App\Models\M_pesan->getWhere('user', Array)
+#6 E:\pemesanan\system\CodeIgniter.php(915): App\Controllers\Home->aksi_login()
+#7 E:\pemesanan\system\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 E:\pemesanan\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\pemesanan\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 E:\pemesanan\system\Commands\Server\rewrite.php(47): require_once('E:\\pemesanan\\pu...')
+#11 {main}
+CRITICAL - 2024-07-22 04:54:39 --> Unknown column 'status' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1749): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user`
+WHERE `username` = :username:
+AND `password` = :password:
+AND `status` = :status:', [...], false)
+ 2 APPPATH\Models\M_pesan.php(14): CodeIgniter\Database\BaseBuilder->getWhere([...])
+ 3 APPPATH\Controllers\Home.php(32): App\Models\M_pesan->getWhere('user', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->aksi_login()
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\pemesanan\\public\\index.php')
+ERROR - 2024-07-22 05:06:10 --> mysqli_sql_exception: Unknown column 'status' in 'where clause' in E:\pemesanan\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 E:\pemesanan\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 E:\pemesanan\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 E:\pemesanan\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 E:\pemesanan\system\Database\BaseBuilder.php(1749): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\pemesanan\app\Models\M_pesan.php(41): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#5 E:\pemesanan\app\Controllers\Home.php(40): App\Models\M_pesan->getWhere('user', Array)
+#6 E:\pemesanan\system\CodeIgniter.php(915): App\Controllers\Home->aksi_login()
+#7 E:\pemesanan\system\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 E:\pemesanan\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\pemesanan\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 E:\pemesanan\system\Commands\Server\rewrite.php(47): require_once('E:\\pemesanan\\pu...')
+#11 {main}
+CRITICAL - 2024-07-22 05:06:10 --> Unknown column 'status' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1749): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user`
+WHERE `username` = :username:
+AND `password` = :password:
+AND `status` = :status:', [...], false)
+ 2 APPPATH\Models\M_pesan.php(41): CodeIgniter\Database\BaseBuilder->getWhere([...])
+ 3 APPPATH\Controllers\Home.php(40): App\Models\M_pesan->getWhere('user', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->aksi_login()
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\pemesanan\\public\\index.php')
+ERROR - 2024-07-22 05:07:57 --> mysqli_sql_exception: Unknown column 'status' in 'where clause' in E:\pemesanan\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 E:\pemesanan\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 E:\pemesanan\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 E:\pemesanan\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 E:\pemesanan\system\Database\BaseBuilder.php(1749): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\pemesanan\app\Models\M_pesan.php(41): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#5 E:\pemesanan\app\Controllers\Home.php(40): App\Models\M_pesan->getWhere('user', Array)
+#6 E:\pemesanan\system\CodeIgniter.php(915): App\Controllers\Home->aksi_login()
+#7 E:\pemesanan\system\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 E:\pemesanan\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\pemesanan\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 E:\pemesanan\system\Commands\Server\rewrite.php(47): require_once('E:\\pemesanan\\pu...')
+#11 {main}
+CRITICAL - 2024-07-22 05:07:57 --> Unknown column 'status' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1749): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user`
+WHERE `username` = :username:
+AND `password` = :password:
+AND `status` = :status:', [...], false)
+ 2 APPPATH\Models\M_pesan.php(41): CodeIgniter\Database\BaseBuilder->getWhere([...])
+ 3 APPPATH\Controllers\Home.php(40): App\Models\M_pesan->getWhere('user', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->aksi_login()
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\pemesanan\\public\\index.php')
+ERROR - 2024-07-22 05:09:02 --> mysqli_sql_exception: Unknown column 'status' in 'where clause' in E:\pemesanan\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 E:\pemesanan\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 E:\pemesanan\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 E:\pemesanan\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 E:\pemesanan\system\Database\BaseBuilder.php(1749): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\pemesanan\app\Models\M_pesan.php(41): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#5 E:\pemesanan\app\Controllers\Home.php(40): App\Models\M_pesan->getWhere('user', Array)
+#6 E:\pemesanan\system\CodeIgniter.php(915): App\Controllers\Home->aksi_login()
+#7 E:\pemesanan\system\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 E:\pemesanan\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\pemesanan\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 E:\pemesanan\system\Commands\Server\rewrite.php(47): require_once('E:\\pemesanan\\pu...')
+#11 {main}
+CRITICAL - 2024-07-22 05:09:02 --> Unknown column 'status' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1749): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user`
+WHERE `username` = :username:
+AND `password` = :password:
+AND `status` = :status:', [...], false)
+ 2 APPPATH\Models\M_pesan.php(41): CodeIgniter\Database\BaseBuilder->getWhere([...])
+ 3 APPPATH\Controllers\Home.php(40): App\Models\M_pesan->getWhere('user', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->aksi_login()
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\pemesanan\\public\\index.php')
+ERROR - 2024-07-22 05:09:47 --> mysqli_sql_exception: Unknown column 'status' in 'where clause' in E:\pemesanan\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 E:\pemesanan\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 E:\pemesanan\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 E:\pemesanan\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 E:\pemesanan\system\Database\BaseBuilder.php(1749): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\pemesanan\app\Models\M_pesan.php(41): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#5 E:\pemesanan\app\Controllers\Home.php(40): App\Models\M_pesan->getWhere('user', Array)
+#6 E:\pemesanan\system\CodeIgniter.php(915): App\Controllers\Home->aksi_login()
+#7 E:\pemesanan\system\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 E:\pemesanan\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\pemesanan\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 E:\pemesanan\system\Commands\Server\rewrite.php(47): require_once('E:\\pemesanan\\pu...')
+#11 {main}
+CRITICAL - 2024-07-22 05:09:47 --> Unknown column 'status' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1749): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user`
+WHERE `username` = :username:
+AND `password` = :password:
+AND `status` = :status:', [...], false)
+ 2 APPPATH\Models\M_pesan.php(41): CodeIgniter\Database\BaseBuilder->getWhere([...])
+ 3 APPPATH\Controllers\Home.php(40): App\Models\M_pesan->getWhere('user', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->aksi_login()
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\pemesanan\\public\\index.php')
+CRITICAL - 2024-07-22 05:54:18 --> Invalid file: "pemesanan.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pemesanan.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('pemesanan', [], true)
+ 3 APPPATH\Controllers\Home.php(298): view('pemesanan', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->pemesanan()
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\pemesanan\\public\\index.php')
+CRITICAL - 2024-07-22 06:10:54 --> Attempt to read property "nama_barang" on string
+in APPPATH\Views\ebarang.php on line 65.
+ 1 APPPATH\Views\ebarang.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nama_barang" on string', 'E:\\pemesanan\\app\\Views\\ebarang.php', 65)
+ 2 SYSTEMPATH\View\View.php(226): include('E:\\pemesanan\\app\\Views\\ebarang.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('ebarang', [], true)
+ 5 APPPATH\Controllers\Home.php(213): view('ebarang', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->ebarang('1')
+ 7 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\pemesanan\\public\\index.php')
+CRITICAL - 2024-07-22 06:11:51 --> Attempt to read property "nama_barang" on string
+in APPPATH\Views\ebarang.php on line 65.
+ 1 APPPATH\Views\ebarang.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nama_barang" on string', 'E:\\pemesanan\\app\\Views\\ebarang.php', 65)
+ 2 SYSTEMPATH\View\View.php(226): include('E:\\pemesanan\\app\\Views\\ebarang.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('ebarang', [], true)
+ 5 APPPATH\Controllers\Home.php(213): view('ebarang', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->ebarang('1')
+ 7 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\pemesanan\\public\\index.php')
+CRITICAL - 2024-07-22 06:12:27 --> Attempt to read property "nama_barang" on string
+in APPPATH\Views\ebarang.php on line 65.
+ 1 APPPATH\Views\ebarang.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nama_barang" on string', 'E:\\pemesanan\\app\\Views\\ebarang.php', 65)
+ 2 SYSTEMPATH\View\View.php(226): include('E:\\pemesanan\\app\\Views\\ebarang.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('ebarang', [], true)
+ 5 APPPATH\Controllers\Home.php(213): view('ebarang', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->ebarang('2')
+ 7 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\pemesanan\\public\\index.php')
+CRITICAL - 2024-07-22 06:12:36 --> Attempt to read property "nama_barang" on string
+in APPPATH\Views\ebarang.php on line 65.
+ 1 APPPATH\Views\ebarang.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nama_barang" on string', 'E:\\pemesanan\\app\\Views\\ebarang.php', 65)
+ 2 SYSTEMPATH\View\View.php(226): include('E:\\pemesanan\\app\\Views\\ebarang.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('ebarang', [], true)
+ 5 APPPATH\Controllers\Home.php(213): view('ebarang', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->ebarang('2')
+ 7 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\pemesanan\\public\\index.php')
+CRITICAL - 2024-07-22 06:16:16 --> Attempt to read property "nama_barang" on string
+in APPPATH\Views\ebarang.php on line 65.
+ 1 APPPATH\Views\ebarang.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nama_barang" on string', 'E:\\pemesanan\\app\\Views\\ebarang.php', 65)
+ 2 SYSTEMPATH\View\View.php(226): include('E:\\pemesanan\\app\\Views\\ebarang.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('ebarang', [], true)
+ 5 APPPATH\Controllers\Home.php(213): view('ebarang', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->ebarang('2')
+ 7 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\pemesanan\\public\\index.php')
+CRITICAL - 2024-07-22 06:17:25 --> Attempt to read property "nama_barang" on string
+in APPPATH\Views\ebarang.php on line 65.
+ 1 APPPATH\Views\ebarang.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nama_barang" on string', 'E:\\pemesanan\\app\\Views\\ebarang.php', 65)
+ 2 SYSTEMPATH\View\View.php(226): include('E:\\pemesanan\\app\\Views\\ebarang.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('ebarang', [], true)
+ 5 APPPATH\Controllers\Home.php(213): view('ebarang', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->ebarang('3')
+ 7 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\pemesanan\\public\\index.php')
+CRITICAL - 2024-07-22 06:19:51 --> Invalid file: "ebarang.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('ebarang.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('ebarang', [], true)
+ 3 APPPATH\Controllers\Home.php(213): view('ebarang', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->ebarang('2')
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\pemesanan\\public\\index.php')
+CRITICAL - 2024-07-22 06:20:02 --> Invalid file: "ebarang.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('ebarang.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('ebarang', [], true)
+ 3 APPPATH\Controllers\Home.php(213): view('ebarang', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->ebarang('2')
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\pemesanan\\public\\index.php')
+CRITICAL - 2024-07-22 06:20:09 --> Invalid file: "ebarang.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('ebarang.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('ebarang', [], true)
+ 3 APPPATH\Controllers\Home.php(213): view('ebarang', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->ebarang('2')
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\pemesanan\\public\\index.php')
+CRITICAL - 2024-07-22 06:28:38 --> Invalid file: "pemesanan.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pemesanan.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('pemesanan', [], true)
+ 3 APPPATH\Controllers\Home.php(296): view('pemesanan', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->pemesanan()
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\pemesanan\\public\\index.php')
+CRITICAL - 2024-07-22 06:28:46 --> Invalid file: "pemesanan.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pemesanan.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('pemesanan', [], true)
+ 3 APPPATH\Controllers\Home.php(296): view('pemesanan', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->pemesanan()
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\pemesanan\\public\\index.php')
+CRITICAL - 2024-07-22 06:29:23 --> Invalid file: "pemesanan.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pemesanan.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('pemesanan', [], true)
+ 3 APPPATH\Controllers\Home.php(296): view('pemesanan', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->pemesanan()
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\pemesanan\\public\\index.php')

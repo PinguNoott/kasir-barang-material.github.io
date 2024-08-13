@@ -1,0 +1,503 @@
+CRITICAL - 2024-07-24 04:07:19 --> Class "App\Controllers\M_pb" not found
+in APPPATH\Controllers\Home.php on line 393.
+ 1 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->setting()
+ 2 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\pemesanan\\public\\index.php')
+CRITICAL - 2024-07-24 04:07:48 --> Attempt to read property "judul_website" on null
+in APPPATH\Views\setting.php on line 230.
+ 1 APPPATH\Views\setting.php(230): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "judul_website" on null', 'E:\\pemesanan\\app\\Views\\setting.php', 230)
+ 2 SYSTEMPATH\View\View.php(226): include('E:\\pemesanan\\app\\Views\\setting.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('setting', [], true)
+ 5 APPPATH\Controllers\Home.php(400): view('setting', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->setting()
+ 7 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\pemesanan\\public\\index.php')
+CRITICAL - 2024-07-24 04:10:34 --> Unclosed '{' on line 407 does not match ')'
+in APPPATH\Controllers\Home.php on line 408.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\pemesanan\\app\\Controllers\\Home.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 4 SYSTEMPATH\CodeIgniter.php(873): class_exists('\\App\\Controllers\\Home', true)
+ 5 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\pemesanan\\public\\index.php')
+CRITICAL - 2024-07-24 04:13:52 --> Undefined variable $activePage
+in APPPATH\Views\setting.php on line 6.
+ 1 APPPATH\Views\setting.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $activePage', 'E:\\pemesanan\\app\\Views\\setting.php', 6)
+ 2 SYSTEMPATH\View\View.php(226): include('E:\\pemesanan\\app\\Views\\setting.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('setting', [], true)
+ 5 APPPATH\Controllers\Home.php(400): view('setting', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->setting()
+ 7 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\pemesanan\\public\\index.php')
+CRITICAL - 2024-07-24 04:17:09 --> syntax error, unexpected identifier "website", expecting "," or ";"
+in APPPATH\Views\header.php on line 9.
+ 1 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('header', [], true)
+ 3 APPPATH\Controllers\Home.php(398): view('header', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->setting()
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\pemesanan\\public\\index.php')
+ERROR - 2024-07-24 04:49:10 --> mysqli_sql_exception: Unknown column 'id_user' in 'where clause' in E:\pemesanan\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 E:\pemesanan\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 E:\pemesanan\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 E:\pemesanan\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 E:\pemesanan\system\Database\BaseBuilder.php(1749): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\pemesanan\app\Models\M_pesan.php(41): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#5 E:\pemesanan\app\Controllers\Home.php(325): App\Models\M_pesan->getWhere('setting', Array)
+#6 E:\pemesanan\system\CodeIgniter.php(915): App\Controllers\Home->pemesanan()
+#7 E:\pemesanan\system\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 E:\pemesanan\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\pemesanan\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 E:\pemesanan\system\Commands\Server\rewrite.php(47): require_once('E:\\pemesanan\\pu...')
+#11 {main}
+CRITICAL - 2024-07-24 04:49:10 --> Unknown column 'id_user' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1749): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `setting`
+WHERE `id_user` = :id_user:', [...], false)
+ 2 APPPATH\Models\M_pesan.php(41): CodeIgniter\Database\BaseBuilder->getWhere([...])
+ 3 APPPATH\Controllers\Home.php(325): App\Models\M_pesan->getWhere('setting', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->pemesanan()
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\pemesanan\\public\\index.php')
+CRITICAL - 2024-07-24 04:51:24 --> Class "App\Controllers\M_pb" not found
+in APPPATH\Controllers\Home.php on line 522.
+ 1 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->user()
+ 2 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\pemesanan\\public\\index.php')
+CRITICAL - 2024-07-24 04:52:10 --> syntax error, unexpected variable "$uploadedFile"
+in APPPATH\Controllers\Home.php on line 442.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\pemesanan\\app\\Controllers\\Home.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 4 SYSTEMPATH\CodeIgniter.php(873): class_exists('\\App\\Controllers\\Home', true)
+ 5 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\pemesanan\\public\\index.php')
+CRITICAL - 2024-07-24 04:52:58 --> syntax error, unexpected variable "$uploadedFile"
+in APPPATH\Controllers\Home.php on line 479.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\pemesanan\\app\\Controllers\\Home.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 4 SYSTEMPATH\CodeIgniter.php(873): class_exists('\\App\\Controllers\\Home', true)
+ 5 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\pemesanan\\public\\index.php')
+CRITICAL - 2024-07-24 04:54:46 --> Invalid file: "euser.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('euser.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('euser', [], true)
+ 3 APPPATH\Controllers\Home.php(564): view('euser', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->euser('2')
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\pemesanan\\public\\index.php')
+CRITICAL - 2024-07-24 04:58:49 --> Cannot redeclare App\Controllers\Home::aksi_tuser()
+in APPPATH\Controllers\Home.php on line 570.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-07-24 04:59:10 --> syntax error, unexpected token "public"
+in APPPATH\Controllers\Home.php on line 570.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\pemesanan\\app\\Controllers\\Home.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 4 SYSTEMPATH\CodeIgniter.php(873): class_exists('\\App\\Controllers\\Home', true)
+ 5 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\pemesanan\\public\\index.php')
+CRITICAL - 2024-07-24 05:00:34 --> Class "App\Controllers\M_pb" not found
+in APPPATH\Controllers\Home.php on line 535.
+ 1 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->aksi_tuser()
+ 2 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\pemesanan\\public\\index.php')
+ERROR - 2024-07-24 05:50:20 --> mysqli_sql_exception: Unknown column 'id_user' in 'where clause' in E:\pemesanan\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 E:\pemesanan\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 E:\pemesanan\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 E:\pemesanan\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 E:\pemesanan\system\Database\BaseBuilder.php(1749): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\pemesanan\app\Models\M_pesan.php(41): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#5 E:\pemesanan\app\Controllers\Home.php(325): App\Models\M_pesan->getWhere('setting', Array)
+#6 E:\pemesanan\system\CodeIgniter.php(915): App\Controllers\Home->pemesanan()
+#7 E:\pemesanan\system\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 E:\pemesanan\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\pemesanan\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 E:\pemesanan\system\Commands\Server\rewrite.php(47): require_once('E:\\pemesanan\\pu...')
+#11 {main}
+CRITICAL - 2024-07-24 05:50:20 --> Unknown column 'id_user' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1749): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `setting`
+WHERE `id_user` = :id_user:', [...], false)
+ 2 APPPATH\Models\M_pesan.php(41): CodeIgniter\Database\BaseBuilder->getWhere([...])
+ 3 APPPATH\Controllers\Home.php(325): App\Models\M_pesan->getWhere('setting', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->pemesanan()
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\pemesanan\\public\\index.php')
+ERROR - 2024-07-24 05:53:14 --> mysqli_sql_exception: Unknown column 'id_user' in 'where clause' in E:\pemesanan\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 E:\pemesanan\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 E:\pemesanan\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 E:\pemesanan\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 E:\pemesanan\system\Database\BaseBuilder.php(1749): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\pemesanan\app\Models\M_pesan.php(41): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#5 E:\pemesanan\app\Controllers\Home.php(325): App\Models\M_pesan->getWhere('setting', Array)
+#6 E:\pemesanan\system\CodeIgniter.php(915): App\Controllers\Home->pemesanan()
+#7 E:\pemesanan\system\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 E:\pemesanan\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\pemesanan\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 E:\pemesanan\system\Commands\Server\rewrite.php(47): require_once('E:\\pemesanan\\pu...')
+#11 {main}
+CRITICAL - 2024-07-24 05:53:14 --> Unknown column 'id_user' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1749): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `setting`
+WHERE `id_user` = :id_user:', [...], false)
+ 2 APPPATH\Models\M_pesan.php(41): CodeIgniter\Database\BaseBuilder->getWhere([...])
+ 3 APPPATH\Controllers\Home.php(325): App\Models\M_pesan->getWhere('setting', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->pemesanan()
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\pemesanan\\public\\index.php')
+ERROR - 2024-07-24 05:54:20 --> mysqli_sql_exception: Unknown column 'user.id_user' in 'where clause' in E:\pemesanan\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 E:\pemesanan\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 E:\pemesanan\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 E:\pemesanan\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 E:\pemesanan\system\Database\BaseBuilder.php(1749): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\pemesanan\app\Models\M_pesan.php(41): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#5 E:\pemesanan\app\Controllers\Home.php(325): App\Models\M_pesan->getWhere('setting', Array)
+#6 E:\pemesanan\system\CodeIgniter.php(915): App\Controllers\Home->pemesanan()
+#7 E:\pemesanan\system\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 E:\pemesanan\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\pemesanan\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 E:\pemesanan\system\Commands\Server\rewrite.php(47): require_once('E:\\pemesanan\\pu...')
+#11 {main}
+CRITICAL - 2024-07-24 05:54:20 --> Unknown column 'user.id_user' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1749): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `setting`
+WHERE `user`.`id_user` = :user.id_user:', [...], false)
+ 2 APPPATH\Models\M_pesan.php(41): CodeIgniter\Database\BaseBuilder->getWhere([...])
+ 3 APPPATH\Controllers\Home.php(325): App\Models\M_pesan->getWhere('setting', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->pemesanan()
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\pemesanan\\public\\index.php')
+CRITICAL - 2024-07-24 05:59:35 --> Class "App\Controllers\M_pb" not found
+in APPPATH\Controllers\Home.php on line 573.
+ 1 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->keranjang('2')
+ 2 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\pemesanan\\public\\index.php')
+ERROR - 2024-07-24 05:59:54 --> mysqli_sql_exception: Unknown column 'keranjang.kode_keranjang' in 'field list' in E:\pemesanan\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 E:\pemesanan\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `keranja...', 0)
+#1 E:\pemesanan\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `keranja...')
+#2 E:\pemesanan\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `keranja...')
+#3 E:\pemesanan\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `keranja...', Array, false)
+#4 E:\pemesanan\app\Models\M_pesan.php(144): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\pemesanan\app\Controllers\Home.php(576): App\Models\M_pesan->groupbyjoinn('keranjang', 'barang', 'barang.id_baran...')
+#6 E:\pemesanan\system\CodeIgniter.php(915): App\Controllers\Home->keranjang('2')
+#7 E:\pemesanan\system\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 E:\pemesanan\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\pemesanan\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 E:\pemesanan\system\Commands\Server\rewrite.php(47): require_once('E:\\pemesanan\\pu...')
+#11 {main}
+CRITICAL - 2024-07-24 05:59:54 --> Unknown column 'keranjang.kode_keranjang' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `keranjang`.`kode_keranjang`, SUM(keranjang.quantity * barang.harga_jual) as total_harga
+FROM `keranjang`
+LEFT JOIN `barang` ON `barang`.`id_barang` = `keranjang`.`id_barang`
+GROUP BY `keranjang`.`kode_keranjang`', [], false)
+ 2 APPPATH\Models\M_pesan.php(144): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Home.php(576): App\Models\M_pesan->groupbyjoinn('keranjang', 'barang', 'barang.id_barang = keranjang.id_barang')
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->keranjang('2')
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\pemesanan\\public\\index.php')
+ERROR - 2024-07-24 06:00:25 --> mysqli_sql_exception: Unknown column 'keranjang.kode_keranjang' in 'field list' in E:\pemesanan\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 E:\pemesanan\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `keranja...', 0)
+#1 E:\pemesanan\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `keranja...')
+#2 E:\pemesanan\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `keranja...')
+#3 E:\pemesanan\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `keranja...', Array, false)
+#4 E:\pemesanan\app\Models\M_pesan.php(144): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\pemesanan\app\Controllers\Home.php(576): App\Models\M_pesan->groupbyjoinn('keranjang', 'barang', 'barang.id_baran...')
+#6 E:\pemesanan\system\CodeIgniter.php(915): App\Controllers\Home->keranjang('2')
+#7 E:\pemesanan\system\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 E:\pemesanan\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\pemesanan\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 E:\pemesanan\system\Commands\Server\rewrite.php(47): require_once('E:\\pemesanan\\pu...')
+#11 {main}
+CRITICAL - 2024-07-24 06:00:25 --> Unknown column 'keranjang.kode_keranjang' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `keranjang`.`kode_keranjang`, SUM(keranjang.quantity * barang.harga_jual) as total_harga
+FROM `keranjang`
+LEFT JOIN `barang` ON `barang`.`id_barang` = `keranjang`.`id_barang`
+GROUP BY `keranjang`.`kode_keranjang`', [], false)
+ 2 APPPATH\Models\M_pesan.php(144): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Home.php(576): App\Models\M_pesan->groupbyjoinn('keranjang', 'barang', 'barang.id_barang = keranjang.id_barang')
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->keranjang('2')
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\pemesanan\\public\\index.php')
+ERROR - 2024-07-24 06:00:56 --> mysqli_sql_exception: Unknown column 'keranjang.kode_keranjang' in 'field list' in E:\pemesanan\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 E:\pemesanan\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `keranja...', 0)
+#1 E:\pemesanan\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `keranja...')
+#2 E:\pemesanan\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `keranja...')
+#3 E:\pemesanan\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `keranja...', Array, false)
+#4 E:\pemesanan\app\Models\M_pesan.php(144): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\pemesanan\app\Controllers\Home.php(576): App\Models\M_pesan->groupbyjoinn('keranjang', 'barang', 'barang.id_baran...')
+#6 E:\pemesanan\system\CodeIgniter.php(915): App\Controllers\Home->keranjang('2')
+#7 E:\pemesanan\system\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 E:\pemesanan\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\pemesanan\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 E:\pemesanan\system\Commands\Server\rewrite.php(47): require_once('E:\\pemesanan\\pu...')
+#11 {main}
+CRITICAL - 2024-07-24 06:00:56 --> Unknown column 'keranjang.kode_keranjang' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `keranjang`.`kode_keranjang`, SUM(keranjang.quantity * barang.harga_jual) as total_harga
+FROM `keranjang`
+LEFT JOIN `barang` ON `barang`.`id_barang` = `keranjang`.`id_barang`
+GROUP BY `keranjang`.`kode_keranjang`', [], false)
+ 2 APPPATH\Models\M_pesan.php(144): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Home.php(576): App\Models\M_pesan->groupbyjoinn('keranjang', 'barang', 'barang.id_barang = keranjang.id_barang')
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->keranjang('2')
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\pemesanan\\public\\index.php')
+ERROR - 2024-07-24 06:02:17 --> mysqli_sql_exception: Unknown column 'keranjang.kode_keranjang' in 'field list' in E:\pemesanan\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 E:\pemesanan\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `keranja...', 0)
+#1 E:\pemesanan\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `keranja...')
+#2 E:\pemesanan\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `keranja...')
+#3 E:\pemesanan\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `keranja...', Array, false)
+#4 E:\pemesanan\app\Models\M_pesan.php(144): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\pemesanan\app\Controllers\Home.php(576): App\Models\M_pesan->groupbyjoinn('keranjang', 'barang', 'barang.id_baran...')
+#6 E:\pemesanan\system\CodeIgniter.php(915): App\Controllers\Home->keranjang('2')
+#7 E:\pemesanan\system\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 E:\pemesanan\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\pemesanan\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 E:\pemesanan\system\Commands\Server\rewrite.php(47): require_once('E:\\pemesanan\\pu...')
+#11 {main}
+CRITICAL - 2024-07-24 06:02:17 --> Unknown column 'keranjang.kode_keranjang' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `keranjang`.`kode_keranjang`, SUM(keranjang.quantity * barang.harga_jual) as total_harga
+FROM `keranjang`
+LEFT JOIN `barang` ON `barang`.`id_barang` = `keranjang`.`id_barang`
+GROUP BY `keranjang`.`kode_keranjang`', [], false)
+ 2 APPPATH\Models\M_pesan.php(144): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Home.php(576): App\Models\M_pesan->groupbyjoinn('keranjang', 'barang', 'barang.id_barang = keranjang.id_barang')
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->keranjang('2')
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\pemesanan\\public\\index.php')
+ERROR - 2024-07-24 06:03:01 --> mysqli_sql_exception: Unknown column 'keranjang.quantity' in 'field list' in E:\pemesanan\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 E:\pemesanan\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `keranja...', 0)
+#1 E:\pemesanan\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `keranja...')
+#2 E:\pemesanan\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `keranja...')
+#3 E:\pemesanan\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `keranja...', Array, false)
+#4 E:\pemesanan\app\Models\M_pesan.php(144): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\pemesanan\app\Controllers\Home.php(576): App\Models\M_pesan->groupbyjoinn('keranjang', 'barang', 'barang.id_baran...')
+#6 E:\pemesanan\system\CodeIgniter.php(915): App\Controllers\Home->keranjang('2')
+#7 E:\pemesanan\system\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 E:\pemesanan\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\pemesanan\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 E:\pemesanan\system\Commands\Server\rewrite.php(47): require_once('E:\\pemesanan\\pu...')
+#11 {main}
+CRITICAL - 2024-07-24 06:03:01 --> Unknown column 'keranjang.quantity' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `keranjang`.`kode_keranjang`, SUM(keranjang.quantity * barang.harga_jual) as total_harga
+FROM `keranjang`
+LEFT JOIN `barang` ON `barang`.`id_barang` = `keranjang`.`id_barang`
+GROUP BY `keranjang`.`kode_keranjang`', [], false)
+ 2 APPPATH\Models\M_pesan.php(144): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Home.php(576): App\Models\M_pesan->groupbyjoinn('keranjang', 'barang', 'barang.id_barang = keranjang.id_barang')
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->keranjang('2')
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\pemesanan\\public\\index.php')
+ERROR - 2024-07-24 06:03:03 --> mysqli_sql_exception: Unknown column 'keranjang.quantity' in 'field list' in E:\pemesanan\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 E:\pemesanan\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `keranja...', 0)
+#1 E:\pemesanan\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `keranja...')
+#2 E:\pemesanan\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `keranja...')
+#3 E:\pemesanan\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `keranja...', Array, false)
+#4 E:\pemesanan\app\Models\M_pesan.php(144): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\pemesanan\app\Controllers\Home.php(576): App\Models\M_pesan->groupbyjoinn('keranjang', 'barang', 'barang.id_baran...')
+#6 E:\pemesanan\system\CodeIgniter.php(915): App\Controllers\Home->keranjang('2')
+#7 E:\pemesanan\system\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 E:\pemesanan\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\pemesanan\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 E:\pemesanan\system\Commands\Server\rewrite.php(47): require_once('E:\\pemesanan\\pu...')
+#11 {main}
+CRITICAL - 2024-07-24 06:03:03 --> Unknown column 'keranjang.quantity' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `keranjang`.`kode_keranjang`, SUM(keranjang.quantity * barang.harga_jual) as total_harga
+FROM `keranjang`
+LEFT JOIN `barang` ON `barang`.`id_barang` = `keranjang`.`id_barang`
+GROUP BY `keranjang`.`kode_keranjang`', [], false)
+ 2 APPPATH\Models\M_pesan.php(144): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Home.php(576): App\Models\M_pesan->groupbyjoinn('keranjang', 'barang', 'barang.id_barang = keranjang.id_barang')
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->keranjang('2')
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\pemesanan\\public\\index.php')
+CRITICAL - 2024-07-24 06:04:44 --> Invalid file: "hpesanan.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('hpesanan.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('hpesanan', [], true)
+ 3 APPPATH\Controllers\Home.php(598): view('hpesanan', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->hpesanan()
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\pemesanan\\public\\index.php')
+CRITICAL - 2024-07-24 06:06:43 --> Unclosed '{' on line 605 does not match ')'
+in APPPATH\Controllers\Home.php on line 606.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\pemesanan\\app\\Controllers\\Home.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 4 SYSTEMPATH\CodeIgniter.php(873): class_exists('\\App\\Controllers\\Home', true)
+ 5 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\pemesanan\\public\\index.php')
+CRITICAL - 2024-07-24 06:08:53 --> Undefined variable $setting
+in APPPATH\Views\header.php on line 9.
+ 1 APPPATH\Views\header.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $setting', 'E:\\pemesanan\\app\\Views\\header.php', 9)
+ 2 SYSTEMPATH\View\View.php(226): include('E:\\pemesanan\\app\\Views\\header.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('header', [], true)
+ 5 APPPATH\Controllers\Home.php(27): view('header')
+ 6 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->login()
+ 7 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\pemesanan\\public\\index.php')
+CRITICAL - 2024-07-24 06:09:06 --> Undefined variable $setting
+in APPPATH\Views\header.php on line 9.
+ 1 APPPATH\Views\header.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $setting', 'E:\\pemesanan\\app\\Views\\header.php', 9)
+ 2 SYSTEMPATH\View\View.php(226): include('E:\\pemesanan\\app\\Views\\header.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('header', [], true)
+ 5 APPPATH\Controllers\Home.php(27): view('header')
+ 6 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->login()
+ 7 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\pemesanan\\public\\index.php')
+CRITICAL - 2024-07-24 06:09:07 --> Undefined variable $setting
+in APPPATH\Views\header.php on line 9.
+ 1 APPPATH\Views\header.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $setting', 'E:\\pemesanan\\app\\Views\\header.php', 9)
+ 2 SYSTEMPATH\View\View.php(226): include('E:\\pemesanan\\app\\Views\\header.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('header', [], true)
+ 5 APPPATH\Controllers\Home.php(27): view('header')
+ 6 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->login()
+ 7 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\pemesanan\\public\\index.php')
+CRITICAL - 2024-07-24 06:09:31 --> Undefined variable $setting
+in APPPATH\Views\header.php on line 9.
+ 1 APPPATH\Views\header.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $setting', 'E:\\pemesanan\\app\\Views\\header.php', 9)
+ 2 SYSTEMPATH\View\View.php(226): include('E:\\pemesanan\\app\\Views\\header.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('header', [], true)
+ 5 APPPATH\Controllers\Home.php(27): view('header')
+ 6 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->login()
+ 7 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\pemesanan\\public\\index.php')
+CRITICAL - 2024-07-24 06:09:31 --> Undefined variable $setting
+in APPPATH\Views\header.php on line 9.
+ 1 APPPATH\Views\header.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $setting', 'E:\\pemesanan\\app\\Views\\header.php', 9)
+ 2 SYSTEMPATH\View\View.php(226): include('E:\\pemesanan\\app\\Views\\header.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('header', [], true)
+ 5 APPPATH\Controllers\Home.php(27): view('header')
+ 6 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->login()
+ 7 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\pemesanan\\public\\index.php')
+CRITICAL - 2024-07-24 06:09:43 --> Undefined variable $setting
+in APPPATH\Views\header.php on line 9.
+ 1 APPPATH\Views\header.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $setting', 'E:\\pemesanan\\app\\Views\\header.php', 9)
+ 2 SYSTEMPATH\View\View.php(226): include('E:\\pemesanan\\app\\Views\\header.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('header', [], true)
+ 5 APPPATH\Controllers\Home.php(27): view('header')
+ 6 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->login()
+ 7 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\pemesanan\\public\\index.php')
+CRITICAL - 2024-07-24 06:09:46 --> Undefined variable $setting
+in APPPATH\Views\header.php on line 9.
+ 1 APPPATH\Views\header.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $setting', 'E:\\pemesanan\\app\\Views\\header.php', 9)
+ 2 SYSTEMPATH\View\View.php(226): include('E:\\pemesanan\\app\\Views\\header.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('header', [], true)
+ 5 APPPATH\Controllers\Home.php(27): view('header')
+ 6 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->login()
+ 7 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\pemesanan\\public\\index.php')
+CRITICAL - 2024-07-24 06:11:21 --> Undefined variable $model
+in APPPATH\Controllers\Home.php on line 28.
+ 1 APPPATH\Controllers\Home.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $model', 'E:\\pemesanan\\app\\Controllers\\Home.php', 28)
+ 2 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->login()
+ 3 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\pemesanan\\public\\index.php')
+CRITICAL - 2024-07-24 06:51:36 --> syntax error, unexpected token "public", expecting end of file
+in APPPATH\Controllers\Home.php on line 657.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\pemesanan\\app\\Controllers\\Home.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 4 SYSTEMPATH\CodeIgniter.php(873): class_exists('\\App\\Controllers\\Home', true)
+ 5 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\pemesanan\\public\\index.php')

@@ -1,0 +1,132 @@
+ERROR - 2024-07-31 11:28:25 --> mysqli_sql_exception: Unknown column 'kode_keranjang' in 'where clause' in E:\pemesanan\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 E:\pemesanan\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 E:\pemesanan\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 E:\pemesanan\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 E:\pemesanan\system\Database\BaseBuilder.php(1749): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\pemesanan\app\Models\M_pesan.php(41): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#5 E:\pemesanan\app\Controllers\Home.php(332): App\Models\M_pesan->getWhere('setting', Array)
+#6 E:\pemesanan\system\CodeIgniter.php(915): App\Controllers\Home->dkeranjang('CPP-0002')
+#7 E:\pemesanan\system\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 E:\pemesanan\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\pemesanan\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 E:\pemesanan\system\Commands\Server\rewrite.php(47): require_once('E:\\pemesanan\\pu...')
+#11 {main}
+CRITICAL - 2024-07-31 11:28:25 --> Unknown column 'kode_keranjang' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1749): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `setting`
+WHERE `kode_keranjang` = :kode_keranjang:', [...], false)
+ 2 APPPATH\Models\M_pesan.php(41): CodeIgniter\Database\BaseBuilder->getWhere([...])
+ 3 APPPATH\Controllers\Home.php(332): App\Models\M_pesan->getWhere('setting', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->dkeranjang('CPP-0002')
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\pemesanan\\public\\index.php')
+ERROR - 2024-07-31 11:31:08 --> mysqli_sql_exception: Unknown column 'kode_keranjang' in 'where clause' in E:\pemesanan\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 E:\pemesanan\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 E:\pemesanan\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 E:\pemesanan\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 E:\pemesanan\system\Database\BaseBuilder.php(1749): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\pemesanan\app\Models\M_pesan.php(41): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#5 E:\pemesanan\app\Controllers\Home.php(332): App\Models\M_pesan->getWhere('setting', Array)
+#6 E:\pemesanan\system\CodeIgniter.php(915): App\Controllers\Home->dkeranjang('CPP-0002')
+#7 E:\pemesanan\system\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 E:\pemesanan\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\pemesanan\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 E:\pemesanan\system\Commands\Server\rewrite.php(47): require_once('E:\\pemesanan\\pu...')
+#11 {main}
+CRITICAL - 2024-07-31 11:31:09 --> Unknown column 'kode_keranjang' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1749): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `setting`
+WHERE `kode_keranjang` = :kode_keranjang:', [...], false)
+ 2 APPPATH\Models\M_pesan.php(41): CodeIgniter\Database\BaseBuilder->getWhere([...])
+ 3 APPPATH\Controllers\Home.php(332): App\Models\M_pesan->getWhere('setting', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->dkeranjang('CPP-0002')
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\pemesanan\\public\\index.php')
+ERROR - 2024-07-31 11:31:47 --> mysqli_sql_exception: Unknown column 'kode_keranjang' in 'where clause' in E:\pemesanan\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 E:\pemesanan\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 E:\pemesanan\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 E:\pemesanan\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 E:\pemesanan\system\Database\BaseBuilder.php(1749): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\pemesanan\app\Models\M_pesan.php(41): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#5 E:\pemesanan\app\Controllers\Home.php(332): App\Models\M_pesan->getWhere('setting', Array)
+#6 E:\pemesanan\system\CodeIgniter.php(915): App\Controllers\Home->dkeranjang('CPP-0002')
+#7 E:\pemesanan\system\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 E:\pemesanan\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\pemesanan\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 E:\pemesanan\system\Commands\Server\rewrite.php(47): require_once('E:\\pemesanan\\pu...')
+#11 {main}
+CRITICAL - 2024-07-31 11:31:47 --> Unknown column 'kode_keranjang' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1749): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `setting`
+WHERE `kode_keranjang` = :kode_keranjang:', [...], false)
+ 2 APPPATH\Models\M_pesan.php(41): CodeIgniter\Database\BaseBuilder->getWhere([...])
+ 3 APPPATH\Controllers\Home.php(332): App\Models\M_pesan->getWhere('setting', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->dkeranjang('CPP-0002')
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\pemesanan\\public\\index.php')
+ERROR - 2024-07-31 12:00:25 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' `barang`., `transaksi`.*, `user`.`username`, `user`.`id_user`, SUM(keranjang...' at line 1 in E:\pemesanan\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 E:\pemesanan\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `keranja...', 0)
+#1 E:\pemesanan\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `keranja...')
+#2 E:\pemesanan\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `keranja...')
+#3 E:\pemesanan\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `keranja...', Array, false)
+#4 E:\pemesanan\app\Models\M_pesan.php(360): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\pemesanan\app\Controllers\Home.php(1209): App\Models\M_pesan->groupbyjoin2where1('keranjang', 'barang', 'transaksi', 'user', 'barang.id_baran...', 'transaksi.kode_...', 'keranjang.id_us...', Array)
+#6 E:\pemesanan\system\CodeIgniter.php(915): App\Controllers\Home->laporantransaksi()
+#7 E:\pemesanan\system\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 E:\pemesanan\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\pemesanan\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 E:\pemesanan\system\Commands\Server\rewrite.php(47): require_once('E:\\pemesanan\\pu...')
+#11 {main}
+CRITICAL - 2024-07-31 12:00:25 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' `barang`., `transaksi`.*, `user`.`username`, `user`.`id_user`, SUM(keranjang...' at line 1
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `keranjang`., `barang`., `transaksi`.*, `user`.`username`, `user`.`id_user`, SUM(keranjang.quantity * barang.harga_jual) as total_harga
+FROM `keranjang`
+LEFT JOIN `barang` ON `barang`.`id_barang` = `keranjang`.`id_barang`
+LEFT JOIN `transaksi` ON `transaksi`.`kode_keranjang` = `keranjang`.`kode_keranjang`
+LEFT JOIN `user` ON `keranjang`.`id_user` = `user`.`id_user`
+WHERE `transaksi`.`status_transaksi` = :transaksi.status_transaksi:
+GROUP BY `keranjang`.`kode_keranjang`
+ORDER BY `keranjang`.`create_at` ASC', [...], false)
+ 2 APPPATH\Models\M_pesan.php(360): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Home.php(1209): App\Models\M_pesan->groupbyjoin2where1('keranjang', 'barang', 'transaksi', 'user', 'barang.id_barang = keranjang.id_barang', 'transaksi.kode_keranjang = keranjang.kode_keranjang', 'keranjang.id_user = user.id_user', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->laporantransaksi()
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\pemesanan\\public\\index.php')
+CRITICAL - 2024-07-31 12:01:49 --> Invalid file: "transaksipdf.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('transaksipdf.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('transaksipdf', [], true)
+ 3 APPPATH\Controllers\Home.php(1303): view('transaksipdf', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->transaksi_pdf()
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\pemesanan\\public\\index.php')
+CRITICAL - 2024-07-31 05:48:05 --> Maximum execution time of 60 seconds exceeded
+in SYSTEMPATH\Helpers\array_helper.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-07-31 12:49:35 --> Invalid file: "transaksipdf.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('transaksipdf.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('transaksipdf', [], true)
+ 3 APPPATH\Controllers\Home.php(1303): view('transaksipdf', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->transaksi_pdf()
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\pemesanan\\public\\index.php')

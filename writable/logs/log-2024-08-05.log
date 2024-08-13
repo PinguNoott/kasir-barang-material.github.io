@@ -1,0 +1,351 @@
+CRITICAL - 2024-08-05 10:46:32 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(635): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(863): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Home.php(1235): CodeIgniter\Model->__call('groupbyjoin4where0', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->laporantransaksi()
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\pemesanan\\public\\index.php')
+ERROR - 2024-08-05 10:49:03 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' `barang`., `transaksi`., `nota`., `user`.`username`, `user`.`id_user`, SUM(k...' at line 1 in E:\pemesanan\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 E:\pemesanan\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `keranja...', 0)
+#1 E:\pemesanan\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `keranja...')
+#2 E:\pemesanan\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `keranja...')
+#3 E:\pemesanan\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `keranja...', Array, false)
+#4 E:\pemesanan\app\Models\M_pesan.php(474): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\pemesanan\app\Controllers\Home.php(1235): App\Models\M_pesan->groupbyjoin4where0('keranjang', 'barang', 'transaksi', 'user', 'nota', 'barang.id_baran...', 'transaksi.kode_...', 'keranjang.id_us...', 'transaksi.no_tr...')
+#6 E:\pemesanan\system\CodeIgniter.php(915): App\Controllers\Home->laporantransaksi()
+#7 E:\pemesanan\system\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 E:\pemesanan\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\pemesanan\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 E:\pemesanan\system\Commands\Server\rewrite.php(47): require_once('E:\\pemesanan\\pu...')
+#11 {main}
+CRITICAL - 2024-08-05 10:49:03 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' `barang`., `transaksi`., `nota`., `user`.`username`, `user`.`id_user`, SUM(k...' at line 1
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `keranjang`., `barang`., `transaksi`., `nota`., `user`.`username`, `user`.`id_user`, SUM(keranjang.quantity * barang.harga_jual) as total_harga
+FROM `keranjang`
+INNER JOIN `barang` ON `barang`.`id_barang` = `keranjang`.`id_barang`
+INNER JOIN `transaksi` ON `transaksi`.`kode_keranjang` = `keranjang`.`kode_keranjang`
+INNER JOIN `user` ON `keranjang`.`id_user` = `user`.`id_user`
+INNER JOIN `nota` ON `transaksi`.`no_transaksi` = `nota`.`nomor_transaksi`
+GROUP BY `keranjang`.`kode_keranjang`
+ORDER BY `keranjang`.`create_at` ASC', [], false)
+ 2 APPPATH\Models\M_pesan.php(474): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Home.php(1235): App\Models\M_pesan->groupbyjoin4where0('keranjang', 'barang', 'transaksi', 'user', 'nota', 'barang.id_barang = keranjang.id_barang', 'transaksi.kode_keranjang = keranjang.kode_keranjang', 'keranjang.id_user = user.id_user', 'transaksi.no_transaksi = nota.nomor_transaksi')
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->laporantransaksi()
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\pemesanan\\public\\index.php')
+ERROR - 2024-08-05 10:49:44 --> mysqli_sql_exception: Table 'pemesanan.nota' doesn't exist in E:\pemesanan\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 E:\pemesanan\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `keranja...', 0)
+#1 E:\pemesanan\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `keranja...')
+#2 E:\pemesanan\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `keranja...')
+#3 E:\pemesanan\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `keranja...', Array, false)
+#4 E:\pemesanan\app\Models\M_pesan.php(474): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\pemesanan\app\Controllers\Home.php(1235): App\Models\M_pesan->groupbyjoin4where0('keranjang', 'barang', 'transaksi', 'user', 'nota', 'barang.id_baran...', 'transaksi.kode_...', 'keranjang.id_us...', 'transaksi.no_tr...')
+#6 E:\pemesanan\system\CodeIgniter.php(915): App\Controllers\Home->laporantransaksi()
+#7 E:\pemesanan\system\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 E:\pemesanan\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\pemesanan\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 E:\pemesanan\system\Commands\Server\rewrite.php(47): require_once('E:\\pemesanan\\pu...')
+#11 {main}
+CRITICAL - 2024-08-05 10:49:44 --> Table 'pemesanan.nota' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `keranjang`.*, `barang`.*, `transaksi`.*, `nota`.*, `user`.`username`, `user`.`id_user`, SUM(keranjang.quantity * barang.harga_jual) as total_harga
+FROM `keranjang`
+INNER JOIN `barang` ON `barang`.`id_barang` = `keranjang`.`id_barang`
+INNER JOIN `transaksi` ON `transaksi`.`kode_keranjang` = `keranjang`.`kode_keranjang`
+INNER JOIN `user` ON `keranjang`.`id_user` = `user`.`id_user`
+INNER JOIN `nota` ON `transaksi`.`no_transaksi` = `nota`.`nomor_transaksi`
+GROUP BY `keranjang`.`kode_keranjang`
+ORDER BY `keranjang`.`create_at` ASC', [], false)
+ 2 APPPATH\Models\M_pesan.php(474): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Home.php(1235): App\Models\M_pesan->groupbyjoin4where0('keranjang', 'barang', 'transaksi', 'user', 'nota', 'barang.id_barang = keranjang.id_barang', 'transaksi.kode_keranjang = keranjang.kode_keranjang', 'keranjang.id_user = user.id_user', 'transaksi.no_transaksi = nota.nomor_transaksi')
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->laporantransaksi()
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\pemesanan\\public\\index.php')
+CRITICAL - 2024-08-05 10:59:41 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(635): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(863): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Home.php(1273): CodeIgniter\Model->__call('groupbyjoin4where1', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->filterTanggal()
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\pemesanan\\public\\index.php')
+ERROR - 2024-08-05 11:00:42 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' `barang`., `transaksi`., `nota`., `user`.`username`, `user`.`id_user`, SUM(k...' at line 1 in E:\pemesanan\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 E:\pemesanan\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `keranja...', 0)
+#1 E:\pemesanan\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `keranja...')
+#2 E:\pemesanan\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `keranja...')
+#3 E:\pemesanan\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `keranja...', Array, false)
+#4 E:\pemesanan\app\Models\M_pesan.php(500): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\pemesanan\app\Controllers\Home.php(1273): App\Models\M_pesan->groupbyjoin4where1('keranjang', 'barang', 'transaksi', 'user', 'nota', 'keranjang.id_ba...', 'transaksi.kode_...', 'user.id_user = ...', 'transaksi.no_tr...', Array, '0000-00-00', '9999-12-31')
+#6 E:\pemesanan\system\CodeIgniter.php(915): App\Controllers\Home->filterTanggal()
+#7 E:\pemesanan\system\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 E:\pemesanan\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\pemesanan\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 E:\pemesanan\system\Commands\Server\rewrite.php(47): require_once('E:\\pemesanan\\pu...')
+#11 {main}
+CRITICAL - 2024-08-05 11:00:42 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' `barang`., `transaksi`., `nota`., `user`.`username`, `user`.`id_user`, SUM(k...' at line 1
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `keranjang`., `barang`., `transaksi`., `nota`., `user`.`username`, `user`.`id_user`, SUM(keranjang.quantity * barang.harga_jual) as total_harga
+FROM `keranjang`
+LEFT JOIN `barang` ON `keranjang`.`id_barang` = `barang`.`id_barang`
+LEFT JOIN `transaksi` ON `transaksi`.`kode_keranjang` = `keranjang`.`kode_keranjang`
+LEFT JOIN `user` ON `user`.`id_user` = `transaksi`.`create_by`
+LEFT JOIN `nota` ON `transaksi`.`no_transaksi` = `nota`.`nomor_transaksi`
+WHERE `transaksi`.`tanggal` >= :transaksi.tanggal:
+AND `transaksi`.`tanggal` <= :transaksi.tanggal.1:
+GROUP BY `keranjang`.`kode_keranjang`
+ORDER BY `keranjang`.`create_at` ASC', [...], false)
+ 2 APPPATH\Models\M_pesan.php(500): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Home.php(1273): App\Models\M_pesan->groupbyjoin4where1('keranjang', 'barang', 'transaksi', 'user', 'nota', 'keranjang.id_barang = barang.id_barang', 'transaksi.kode_keranjang = keranjang.kode_keranjang', 'user.id_user = transaksi.create_by', 'transaksi.no_transaksi = nota.nomor_transaksi', [], '0000-00-00', '9999-12-31')
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->filterTanggal()
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\pemesanan\\public\\index.php')
+CRITICAL - 2024-08-05 11:03:10 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(635): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(863): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Home.php(1315): CodeIgniter\Model->__call('groupbyjoin5where1', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->transaksi_pdf()
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\pemesanan\\public\\index.php')
+ERROR - 2024-08-05 11:03:57 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' `barang`., `transaksi`., `nota`., `user`.`username`, `user`.`id_user`, SUM(k...' at line 1 in E:\pemesanan\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 E:\pemesanan\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `keranja...', 0)
+#1 E:\pemesanan\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `keranja...')
+#2 E:\pemesanan\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `keranja...')
+#3 E:\pemesanan\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `keranja...', Array, false)
+#4 E:\pemesanan\app\Models\M_pesan.php(523): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\pemesanan\app\Controllers\Home.php(1315): App\Models\M_pesan->groupbyjoin5where1('keranjang', 'barang', 'transaksi', 'user', 'nota', 'keranjang.id_ba...', 'transaksi.kode_...', 'user.id_user = ...', 'transaksi.no_tr...', '2024-07-29', '2024-07-31')
+#6 E:\pemesanan\system\CodeIgniter.php(915): App\Controllers\Home->transaksi_pdf()
+#7 E:\pemesanan\system\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 E:\pemesanan\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\pemesanan\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 E:\pemesanan\system\Commands\Server\rewrite.php(47): require_once('E:\\pemesanan\\pu...')
+#11 {main}
+CRITICAL - 2024-08-05 11:03:57 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' `barang`., `transaksi`., `nota`., `user`.`username`, `user`.`id_user`, SUM(k...' at line 1
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `keranjang`., `barang`., `transaksi`., `nota`., `user`.`username`, `user`.`id_user`, SUM(keranjang.quantity * barang.harga_jual) as total_harga
+FROM `keranjang`
+LEFT JOIN `barang` ON `keranjang`.`id_barang` = `barang`.`id_barang`
+LEFT JOIN `transaksi` ON `transaksi`.`kode_keranjang` = `keranjang`.`kode_keranjang`
+LEFT JOIN `user` ON `user`.`id_user` = `transaksi`.`create_by`
+LEFT JOIN `nota` ON `transaksi`.`no_transaksi` = `nota`.`nomor_transaksi`
+WHERE `transaksi`.`tanggal` >= :transaksi.tanggal:
+AND `transaksi`.`tanggal` <= :transaksi.tanggal.1:
+GROUP BY `keranjang`.`kode_keranjang`
+ORDER BY `keranjang`.`create_at` ASC', [...], false)
+ 2 APPPATH\Models\M_pesan.php(523): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Home.php(1315): App\Models\M_pesan->groupbyjoin5where1('keranjang', 'barang', 'transaksi', 'user', 'nota', 'keranjang.id_barang = barang.id_barang', 'transaksi.kode_keranjang = keranjang.kode_keranjang', 'user.id_user = transaksi.create_by', 'transaksi.no_transaksi = nota.nomor_transaksi', '2024-07-29', '2024-07-31')
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->transaksi_pdf()
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\pemesanan\\public\\index.php')
+ERROR - 2024-08-05 11:04:12 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' `user`.`username`, `user`.`id_user`, SUM(keranjang.quantity * barang.harga_j...' at line 1 in E:\pemesanan\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 E:\pemesanan\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `keranja...', 0)
+#1 E:\pemesanan\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `keranja...')
+#2 E:\pemesanan\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `keranja...')
+#3 E:\pemesanan\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `keranja...', Array, false)
+#4 E:\pemesanan\app\Models\M_pesan.php(523): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\pemesanan\app\Controllers\Home.php(1315): App\Models\M_pesan->groupbyjoin5where1('keranjang', 'barang', 'transaksi', 'user', 'nota', 'keranjang.id_ba...', 'transaksi.kode_...', 'user.id_user = ...', 'transaksi.no_tr...', '2024-07-29', '2024-07-31')
+#6 E:\pemesanan\system\CodeIgniter.php(915): App\Controllers\Home->transaksi_pdf()
+#7 E:\pemesanan\system\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 E:\pemesanan\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\pemesanan\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 E:\pemesanan\system\Commands\Server\rewrite.php(47): require_once('E:\\pemesanan\\pu...')
+#11 {main}
+CRITICAL - 2024-08-05 11:04:12 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' `user`.`username`, `user`.`id_user`, SUM(keranjang.quantity * barang.harga_j...' at line 1
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `keranjang`.*, `barang`.*, `transaksi`.*, `nota`., `user`.`username`, `user`.`id_user`, SUM(keranjang.quantity * barang.harga_jual) as total_harga
+FROM `keranjang`
+LEFT JOIN `barang` ON `keranjang`.`id_barang` = `barang`.`id_barang`
+LEFT JOIN `transaksi` ON `transaksi`.`kode_keranjang` = `keranjang`.`kode_keranjang`
+LEFT JOIN `user` ON `user`.`id_user` = `transaksi`.`create_by`
+LEFT JOIN `nota` ON `transaksi`.`no_transaksi` = `nota`.`nomor_transaksi`
+WHERE `transaksi`.`tanggal` >= :transaksi.tanggal:
+AND `transaksi`.`tanggal` <= :transaksi.tanggal.1:
+GROUP BY `keranjang`.`kode_keranjang`
+ORDER BY `keranjang`.`create_at` ASC', [...], false)
+ 2 APPPATH\Models\M_pesan.php(523): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Home.php(1315): App\Models\M_pesan->groupbyjoin5where1('keranjang', 'barang', 'transaksi', 'user', 'nota', 'keranjang.id_barang = barang.id_barang', 'transaksi.kode_keranjang = keranjang.kode_keranjang', 'user.id_user = transaksi.create_by', 'transaksi.no_transaksi = nota.nomor_transaksi', '2024-07-29', '2024-07-31')
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->transaksi_pdf()
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\pemesanan\\public\\index.php')
+CRITICAL - 2024-08-05 11:05:00 --> Invalid file: "transaksipdf.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('transaksipdf.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('transaksipdf', [], true)
+ 3 APPPATH\Controllers\Home.php(1332): view('transaksipdf', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->transaksi_pdf()
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\pemesanan\\public\\index.php')
+ERROR - 2024-08-05 11:16:22 --> mysqli_sql_exception: Unknown column 'transaksi.deletet' in 'where clause' in E:\pemesanan\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 E:\pemesanan\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 E:\pemesanan\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 E:\pemesanan\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 E:\pemesanan\system\Database\BaseBuilder.php(1749): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\pemesanan\app\Models\M_pesan.php(54): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#5 E:\pemesanan\app\Controllers\Home.php(1981): App\Models\M_pesan->join('transaksi', 'nota', 'transaksi.no_tr...', Array)
+#6 E:\pemesanan\system\CodeIgniter.php(915): App\Controllers\Home->rtransaksi()
+#7 E:\pemesanan\system\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 E:\pemesanan\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\pemesanan\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 E:\pemesanan\system\Commands\Server\rewrite.php(47): require_once('E:\\pemesanan\\pu...')
+#11 {main}
+CRITICAL - 2024-08-05 11:16:22 --> Unknown column 'transaksi.deletet' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1749): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `transaksi`
+RIGHT JOIN `nota` ON `transaksi`.`no_transaksi` = `nota`.`nomor_transaksi`
+WHERE `transaksi`.`deletet` = :transaksi.deletet:', [...], false)
+ 2 APPPATH\Models\M_pesan.php(54): CodeIgniter\Database\BaseBuilder->getWhere([...])
+ 3 APPPATH\Controllers\Home.php(1981): App\Models\M_pesan->join('transaksi', 'nota', 'transaksi.no_transaksi = nota.nomor_transaksi', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->rtransaksi()
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\pemesanan\\public\\index.php')
+CRITICAL - 2024-08-05 11:17:03 --> Invalid file: "transaksi.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('transaksi.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('transaksi', [], true)
+ 3 APPPATH\Controllers\Home.php(1986): view('transaksi', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->rtransaksi()
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\pemesanan\\public\\index.php')
+CRITICAL - 2024-08-05 11:18:18 --> foreach() argument must be of type array|object, null given
+in APPPATH\Views\transaksi.php on line 62.
+ 1 APPPATH\Views\transaksi.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'E:\\pemesanan\\app\\Views\\transaksi.php', 62)
+ 2 SYSTEMPATH\View\View.php(226): include('E:\\pemesanan\\app\\Views\\transaksi.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('transaksi', [], true)
+ 5 APPPATH\Controllers\Home.php(1986): view('transaksi', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->rtransaksi()
+ 7 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\pemesanan\\public\\index.php')
+CRITICAL - 2024-08-05 11:27:45 --> foreach() argument must be of type array|object, null given
+in APPPATH\Views\transaksi.php on line 62.
+ 1 APPPATH\Views\transaksi.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'E:\\pemesanan\\app\\Views\\transaksi.php', 62)
+ 2 SYSTEMPATH\View\View.php(226): include('E:\\pemesanan\\app\\Views\\transaksi.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('transaksi', [], true)
+ 5 APPPATH\Controllers\Home.php(2318): view('transaksi', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->transaksi()
+ 7 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\pemesanan\\public\\index.php')
+CRITICAL - 2024-08-05 11:28:02 --> foreach() argument must be of type array|object, null given
+in APPPATH\Views\transaksi.php on line 62.
+ 1 APPPATH\Views\transaksi.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'E:\\pemesanan\\app\\Views\\transaksi.php', 62)
+ 2 SYSTEMPATH\View\View.php(226): include('E:\\pemesanan\\app\\Views\\transaksi.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('transaksi', [], true)
+ 5 APPPATH\Controllers\Home.php(2318): view('transaksi', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->transaksi()
+ 7 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\pemesanan\\public\\index.php')
+CRITICAL - 2024-08-05 11:32:20 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(635): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(863): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Home.php(2044): CodeIgniter\Model->__call('tampilWhere2', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->ekeranjang('CPP-0011')
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\pemesanan\\public\\index.php')
+CRITICAL - 2024-08-05 11:40:53 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(635): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(863): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Home.php(2044): CodeIgniter\Model->__call('tampilWhere2', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->ekeranjang('CPP-0011')
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\pemesanan\\public\\index.php')
+CRITICAL - 2024-08-05 11:41:45 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getResult()
+in APPPATH\Models\M_pesan.php on line 49.
+ 1 APPPATH\Controllers\Home.php(2044): App\Models\M_pesan->tampilwhere2('barang', [...], [...])
+ 2 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->ekeranjang('CPP-0011')
+ 3 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\pemesanan\\public\\index.php')
+CRITICAL - 2024-08-05 13:04:42 --> Class "App\Controllers\M_pb" not found
+in APPPATH\Controllers\Home.php on line 738.
+ 1 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->cash()
+ 2 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\pemesanan\\public\\index.php')
+CRITICAL - 2024-08-05 13:06:47 --> Class "App\Controllers\M_pb" not found
+in APPPATH\Controllers\Home.php on line 738.
+ 1 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->cash()
+ 2 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\pemesanan\\public\\index.php')
+CRITICAL - 2024-08-05 13:09:35 --> Class "App\Controllers\M_pb" not found
+in APPPATH\Controllers\Home.php on line 687.
+ 1 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->bayar()
+ 2 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\pemesanan\\public\\index.php')
+CRITICAL - 2024-08-05 13:10:02 --> Class "App\Controllers\M_pb" not found
+in APPPATH\Controllers\Home.php on line 738.
+ 1 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->cash()
+ 2 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\pemesanan\\public\\index.php')
+CRITICAL - 2024-08-05 13:12:50 --> Class "App\Controllers\M_pb" not found
+in APPPATH\Controllers\Home.php on line 738.
+ 1 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->cash()
+ 2 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\pemesanan\\public\\index.php')
+CRITICAL - 2024-08-05 13:14:11 --> Class "App\Controllers\M_pb" not found
+in APPPATH\Controllers\Home.php on line 738.
+ 1 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->cash()
+ 2 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\pemesanan\\public\\index.php')
+CRITICAL - 2024-08-05 13:14:48 --> Class "App\Controllers\M_pb" not found
+in APPPATH\Controllers\Home.php on line 738.
+ 1 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->cash()
+ 2 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\pemesanan\\public\\index.php')
